@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.small-image.mid-image {
+    height: auto;
+    width: 300px;
+  }
+  
+  .small-image.average-image {
+    height: 180px;
+    width: 200px;
+  }
