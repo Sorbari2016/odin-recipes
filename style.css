@@ -1,11 +1,37 @@
 
 
+/* To change the background to black, change font to white, change font family*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     color: white;
+  
 }
 
+/* To remove the bullet points from the links, and format */
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    margin-top: 10%;
+   
+}
+
+/* To remove the underline from the links  */
+a {
+    text-decoration: none;
+  }
 
 
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.recipes{
+    display: flex;
+    flex-direction: horizontal; 
+    justify-content: space-around;
+}
