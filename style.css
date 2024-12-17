@@ -8,19 +8,11 @@
   
 }
 
-/* To remove the bullet points from the links, and format */
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 250px;
-    justify-content: center;
-    margin-top: 10%;
-   
-}
 
 /* To remove the underline from the links  */
 a {
     text-decoration: none;
+    text-align: center;
   }
 
 
@@ -34,4 +26,26 @@ h1 {
     display: flex;
     flex-direction: horizontal; 
     justify-content: space-around;
+    margin-top: 100px;
+    border: 2px solid;
+    border-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.image-size {
+    width: 300px;
+    height: 200px
+}
+
+.egusi,
+.afang,
+.edikang-ikong {
+    display: flex;
+    flex-direction: column;
 }
