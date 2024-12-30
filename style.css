@@ -31,9 +31,6 @@ h1 {
     border-color: aliceblue;
     padding-top: 10px;
     padding-bottom: 10px;
-    flex-wrap: wrap;
-    flex: 1 0 auto;
-
 }
 
 * {
@@ -50,4 +47,6 @@ h1 {
 .edikang-ikong {
     display: flex;
     flex-direction: column;
+    flex-basis: 33%;
+    align-items: center;
 }
